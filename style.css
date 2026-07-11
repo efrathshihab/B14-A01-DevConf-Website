@@ -10,6 +10,7 @@ nav{
 .nav-links a{
     color: #575757;
     text-decoration: none;
+    font-size: 20px;
 }
 ul{
     display: flex;
@@ -27,7 +28,7 @@ ul{
     width: 192px;
     height: 56px;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     font-family: sans-serif;
     cursor: pointer;
