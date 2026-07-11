@@ -1,3 +1,34 @@
-body{
-    background-color: #b34747;
+nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23.5px 115.5px 24.5px 115.5px;
+    height: 50px;
+    box-sizing: content-box;
+}
+.nav-links a{
+    color: #575757;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 23.5px;
+}
+.register-btn{
+    background-color: #1d4ed8;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 192px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
 }
