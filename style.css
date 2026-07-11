@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Inter', sans-serif;
+}
 nav{
     background-color: #ffffff;
     display: flex;
@@ -166,4 +169,158 @@ h2 {
     color: #575757;
     line-height: 1.5;
 
+}
+
+
+.pricing-section{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 96px 20px;
+    text-align: center;
+
+}
+.pricing-header h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    color: #0f172a;
+
+}
+.pricing-header p{
+    font-size: 16px;
+    color: #475569;
+    margin: 0 0 80px 0;
+
+}
+.pricing-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: stretch;
+}
+@media (min-width: 768px) {
+    .pricing-cards {
+        flex-direction: row;
+    }
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 32px;
+    flex: 1;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Highlighted Pro Card */
+.card.pro {
+    background: #0f172a;
+    color: #ffffff;
+    border-color: #0f172a;
+}
+
+.plan-name {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+.card.pro .plan-name {
+    color: #94a3b8;
+}
+
+.plan-price {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+}
+
+.plan-subtitle {
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.card.pro .plan-subtitle {
+    color: #94a3b8;
+}
+
+.divider {
+    height: 1px;
+    background: #e2e8f0;
+    margin: 0 0 24px 0;
+    border: none;
+}
+.card.pro .divider {
+    background: #1e293b;
+}
+
+/* Feature Lists */
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.features li {
+    font-size: 14px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.features li::before {
+    content: "•";
+    color: #3b82f6;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 4px;
+}
+.card.pro .features li {
+    color: #e2e8f0;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-standard {
+    background: #ffffff;
+    color: #3b82f6;
+    border: 1px solid #3b82f6;
+}
+.btn-standard:hover {
+    background: #eff6ff;
+}
+.btn-pro {
+    background: #3b82f6;
+    color: #ffffff;
+    border: 1px solid #3b82f6;
+}
+.btn-team {
+    background: #ffffff;
+    color: #0f172a;
+    border: 1px solid #cbd5e1;
+}
+.btn-team:hover {
+    background: #f8fafc;
 }
