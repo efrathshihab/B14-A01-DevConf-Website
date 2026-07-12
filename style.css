@@ -321,3 +321,117 @@ h2 {
 .btn-team:hover {
     background: #f8fafc;
 }
+/* =========================================
+   Sponsors & Partners Section
+========================================= */
+
+.sponsors {
+    width: 95.4%;
+    max-width: 1479px;
+    margin: 0 auto 80px auto;
+    padding: 60px 16px 40px;
+    background-color: #ede9fe;
+    border-radius: 16px;
+    text-align: center;
+}
+
+/* Section Heading */
+
+.sponsors h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 56px;
+    font-family: sans-serif;
+}
+
+/* Sponsor Tier */
+
+.sponsor-tier {
+    margin-bottom: 56px;
+}
+
+.sponsor-tier:last-child {
+    margin-bottom: 0;
+}
+
+.tier-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+    font-family: sans-serif;
+}
+
+/* Sponsor Grid */
+
+.sponsor-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* Sponsor Card */
+
+.sponsor-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 100px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    transition: all .3s ease;
+}
+
+.sponsor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    cursor: pointer;
+}
+
+/* Logo */
+
+.sponsor-card img {
+    max-width: 70%;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+/* ==========================
+   Title Sponsors
+========================== */
+
+.title-sponsors .sponsor-card {
+    width: 260px;
+    height: 120px;
+}
+
+.title-sponsors .sponsor-card img {
+    max-width: 75%;
+    max-height: 65px;
+}
+
+/* ==========================
+   Gold Sponsors
+========================== */
+
+.gold-card {
+    width: 220px;
+    height: 100px;
+}
+
+/* ==========================
+   Media & Community
+========================== */
+
+.media-card-blue,
+.media-card-dashed {
+    width: 220px;
+    height: 100px;
+}
