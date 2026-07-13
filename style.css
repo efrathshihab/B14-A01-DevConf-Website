@@ -218,7 +218,7 @@ h2 {
     flex-direction: column;
 }
 
-/* Highlighted Pro Card */
+/*  Pro Card */
 .card.pro {
     background: #0f172a;
     color: #ffffff;
@@ -321,16 +321,14 @@ h2 {
 .btn-team:hover {
     background: #f8fafc;
 }
-/* =========================================
-   Sponsors & Partners Section
-========================================= */
+/* ---Sponsors & Partners Section-- */
 
 .sponsors {
     width: 95.4%;
     max-width: 1479px;
     margin: 0 auto 80px auto;
     padding: 60px 16px 40px;
-    background-color: #ede9fe;
+    background-color: #100834;
     border-radius: 16px;
     text-align: center;
 }
@@ -340,7 +338,7 @@ h2 {
 .sponsors h2 {
     font-size: 36px;
     font-weight: 700;
-    color: #0f172a;
+    color: #c9ceda;
     margin-bottom: 56px;
     font-family: sans-serif;
 }
@@ -383,16 +381,10 @@ h2 {
     align-items: center;
     width: 220px;
     height: 100px;
-    background: #ffffff;
+    background: #2f48b8;
     border: 1px solid #e5e7eb;
     border-radius: 12px;
     transition: all .3s ease;
-}
-
-.sponsor-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
-    cursor: pointer;
 }
 
 /* Logo */
@@ -403,9 +395,7 @@ h2 {
     object-fit: contain;
 }
 
-/* ==========================
-   Title Sponsors
-========================== */
+/* Title Sponsors */
 
 .title-sponsors .sponsor-card {
     width: 260px;
@@ -417,21 +407,96 @@ h2 {
     max-height: 65px;
 }
 
-/* ==========================
-   Gold Sponsors
-========================== */
+/* -- Gold Sponsors-- */
 
 .gold-card {
     width: 220px;
     height: 100px;
 }
 
-/* ==========================
-   Media & Community
-========================== */
+/*-- Media & Community-- */
 
 .media-card-blue,
 .media-card-dashed {
     width: 220px;
     height: 100px;
+}
+
+.media-sponsors .sponsor-card img {
+    max-width: 90%;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+.dailyaiub-logo{
+    max-width: 95%;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+}
+
+
+
+/* --- Footer Section --- */
+.site-footer {
+    background-color: #0f172a; 
+    padding: 60px 115.5px 40px 115.5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.footer-logo img {
+    height: 50px; 
+    
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.social-icons img {
+    width: 36px;
+    height: 36px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.footer-divider {
+    border: none;
+    height: 1px;
+    background-color: #1e293b;
+    margin: 0 0 32px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: #ffffff;
+    opacity: 0.4;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-legal span {
+    color:#ffffff;
+    opacity: 0.4;
+    font-size: 14px;
+    cursor: pointer;
 }
