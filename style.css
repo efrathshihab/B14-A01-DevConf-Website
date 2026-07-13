@@ -7,13 +7,20 @@ body {
     font-family: 'Inter', sans-serif;
 }
 nav{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-sizing: border-box;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 23.5px 115.5px 24.5px 115.5px;
-    height: 50px;
-    box-sizing: content-box;
+    height: 98px;
+
 }
 .nav-links a{
     color: #575757;
@@ -43,6 +50,7 @@ ul{
 }
 /* hero banner */
 .banner{
+    margin-top: 98x;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
     background-size: cover;
     background-position: center;
